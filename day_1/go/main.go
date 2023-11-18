@@ -38,7 +38,8 @@ func main() {
 
 	final := most + mostSecond + mostThird
 
-	fmt.Println(final)
+	fmt.Printf("Most: %d\n", most)
+	fmt.Printf("Top three: %d\n", final)
 
 	if err := scanner.Err(); err != nil {
 		fmt.Println(err)
